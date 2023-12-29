@@ -16,11 +16,11 @@
 }
 
 .table__cell:hover {
-    background-color: #cdd9e8;
+    background-color: hsla(210, 17%, 58%, 0.459);
 }
 
 .table__cell--header {
-    background-color: hsla(210, 17%, 58%, 0.459);
+    background-color: #8395a7;
     font-weight: bold;
 }
 
