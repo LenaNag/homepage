@@ -1,0 +1,11 @@
+.section__header {
+    background-color: #8395a7;
+    text-align: center;
+    box-shadow: 2px 3px 5px #576574;
+    font-weight: bold;
+}
+
+.section__list {
+    text-align: left;
+}
+
