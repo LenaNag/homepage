@@ -1,3 +1,11 @@
 .content {
     font-family: 'Lato', sans-serif;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    color: #000;
+    background-color: #d8f8ff;
+    text-align: center;
+    line-height: 1.6;
 }
