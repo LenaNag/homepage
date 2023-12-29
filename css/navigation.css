@@ -18,3 +18,7 @@
     text-decoration: none;
     color: #000;
 }
+
+.navigation__listItem:hover {
+    background-color: hsla(210, 17%, 58%, 0.459);
+}
