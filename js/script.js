@@ -7,11 +7,9 @@ let content = document.querySelector(".content");
 
 hidePhotoButton.addEventListener("click", () => {
     headerPhoto.classList.toggle("js-header__photo--hidden");
-    if (headerPhoto.classList.contains("js-header__photo--hidden")) {
-        headerButtonText.innerText = "Pokaż";
-    } else {
-        headerButtonText.innerText = "Ukryj";
-    };
+    headerButtonText.innerText = headerPhoto.classList.contains("js-header__photo--hidden")
+        ? "Pokaż"
+        : "Ukryj";
 });
 
 backgroundChangeButton.addEventListener("click", () => {
