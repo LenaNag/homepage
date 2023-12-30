@@ -9,3 +9,7 @@
     text-align: center;
     line-height: 1.6;
 }
+
+.js-darkContent {
+    background-color: #71a5b1;
+}
