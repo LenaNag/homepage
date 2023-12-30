@@ -14,9 +14,7 @@ hidePhotoButton.addEventListener("click", () => {
 
 backgroundChangeButton.addEventListener("click", () => {
     content.classList.toggle("js-darkContent");
-    if (content.classList.contains("js-darkContent")) {
-        backgroundChangeButtonText.innerText = "jasny";
-    } else {
-        backgroundChangeButtonText.innerText = "ciemny";
-    };
+    backgroundChangeButtonText.innerText = content.classList.contains("js-darkContent") 
+    ? "jasny"
+    : "ciemny";
 });
